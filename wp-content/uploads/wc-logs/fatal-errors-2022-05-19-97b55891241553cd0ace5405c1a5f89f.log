@@ -1,0 +1,28 @@
+2022-05-19T01:09:35+00:00 CRITICAL Uncaught Error: Undefined constant "hola" in C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(555): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php en la línea 2
+
+2022-05-19T01:10:27+00:00 CRITICAL Uncaught Error: Undefined constant "hola" in C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(555): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php en la línea 2
+
+2022-05-19T01:12:28+00:00 CRITICAL Uncaught Error: Undefined constant "hola" in C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(555): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php en la línea 2
+

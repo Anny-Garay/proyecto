@@ -1,0 +1,30 @@
+2022-05-26T01:07:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 462
+
+2022-05-26T01:31:54+00:00 CRITICAL syntax error, unexpected token "?", expecting end of file en C:\xampp\htdocs\wordpress\wp-content\themes\Blog\nosotros.php en la línea 2
+
+2022-05-26T02:53:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php on line 12 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php(12): register_nav_menu(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): codigo_inicial('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(587): do_action('init')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-includes\nav-menu.php en la línea 136
+
+2022-05-26T02:53:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php on line 12 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\Blog\functions.php(12): register_nav_menu(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): codigo_inicial('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(587): do_action('init')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-includes\nav-menu.php en la línea 136
+

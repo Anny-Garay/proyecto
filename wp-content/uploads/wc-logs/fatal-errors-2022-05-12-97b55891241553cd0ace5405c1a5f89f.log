@@ -1,0 +1,24 @@
+2022-05-12T02:11:36+00:00 CRITICAL Uncaught Error: Call to undefined function the_filed() in C:\xampp\htdocs\wordpress\wp-content\themes\Blog\single.php:12
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\themes\Blog\single.php en la línea 12
+
+2022-05-12T02:12:07+00:00 CRITICAL Uncaught Error: Call to undefined function the_filed() in C:\xampp\htdocs\wordpress\wp-content\themes\Blog\single.php:13
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\themes\Blog\single.php en la línea 13
+
+2022-05-12T02:30:12+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in C:\xampp\htdocs\wordpress\wp-content\themes\Blog\single.php:10
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\themes\Blog\single.php en la línea 10
+
