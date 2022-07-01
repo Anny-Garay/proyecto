@@ -1,0 +1,167 @@
+ body{
+	 background: rgb(51, 50, 50);
+ }
+ 
+ .your-class1,
+ .your-class2,
+ .your-class3{
+    left: 15%;
+	padding: 20px 0;
+    width: 75%; 
+ }  
+
+ .your-class1 a,
+ .your-class2 a,
+ .your-class3 a{
+	width: 250px;
+	height: 300px;
+	display: block;
+	background-size: cover;
+	background-position: center;
+    transition: all .7s;
+
+ }
+
+ .your-class1 a:hover,
+ .your-class2 a:hover,
+ .your-class3 a:hover{
+		transition: all 3s;
+		background-size: 110%;
+	}
+ 
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    font-size: 30px;
+}
+
+ h3{
+    text-align: center;
+     color: black;
+     text-shadow: 1px 1px 2px black;
+     font-size: 25px;
+     
+ }
+
+.flecha-izquierda,
+.flecha-derecha{
+    
+    position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 15%;
+	top: calc(49% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.flecha-izquierda:hover, .flecha-izquierda2:hover, .flecha-izquierda3:hover,
+.flecha-derecha:hover, .flecha-derecha2:hover, .flecha-derecha3:hover{
+    background: rgba(0,0,0, .9);
+}
+
+
+ .flecha-izquierda{
+     
+     left: 120px;
+ }
+
+ .flecha-derecha{
+     right: 120px;
+ }
+     
+
+ .flecha-izquierda2,
+.flecha-derecha2{
+    margin-top: 430px;
+    position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 15%;
+	top: calc(49% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+
+
+ .flecha-izquierda2{
+     
+     left: 120px;
+ }
+
+ .flecha-derecha2{
+     right: 120px;
+ }
+
+
+ .flecha-izquierda3,
+.flecha-derecha3{
+    margin-top: 860px;
+    position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 15%;
+	top: calc(49% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+
+
+ .flecha-izquierda3{
+     
+     left: 120px;
+ }
+
+ .flecha-derecha3{
+     right: 120px;
+ }
+
+
+ @media (max-width: 600px) {
+	 #flecha-izquierda1 {
+		 display: none !important;
+	 }
+ }
+ @media (max-width: 600px) {
+	#flecha-derecha1 {
+		display: none !important;
+	}
+}
+ @media (max-width: 600px) {
+	#flecha-izquierda2 {
+		display: none !important;
+	}
+}
+@media (max-width: 600px) {
+	#flecha-derecha2 {
+		display: none !important;
+	}
+}
+@media (max-width: 600px) {
+	#flecha-izquierda3 {
+		display: none !important;
+	}
+}
+
+@media (max-width: 600px) {
+	#flecha-derecha3 {
+		display: none !important;
+	}
+}
