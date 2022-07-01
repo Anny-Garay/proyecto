@@ -1,7 +1,33 @@
  body{
 	 background: rgb(51, 50, 50);
+	 background-color: white;
  }
  
+ p.logo{
+	margin-top: 0px;
+    font-size: 20px;
+    color: rgb(187, 136, 41);
+    text-shadow: 1px 1px 2px rgb(151, 117, 54);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 30px;
+    margin-left: 25px;
+    color: antiquewhite;
+    
+}
+
+ 
+.busqueda{
+    margin-left: -80px;
+
+}
+
+.banner{
+
+}
+
+
  .your-class1,
  .your-class2,
  .your-class3{
@@ -51,7 +77,7 @@ h1{
 	background: rgba(0,0,0,0.3);
 	font-size: 40px;
 	height: 15%;
-	top: calc(49% - 25%);
+	top: calc(85% - 25%);
 	line-height: 40px;
 	width: 50px;
 	color: #fff;
@@ -68,11 +94,11 @@ h1{
 
  .flecha-izquierda{
      
-     left: 120px;
+     left: 200px;
  }
 
  .flecha-derecha{
-     right: 120px;
+     right: 170px;
  }
      
 
@@ -84,7 +110,7 @@ h1{
 	background: rgba(0,0,0,0.3);
 	font-size: 40px;
 	height: 15%;
-	top: calc(49% - 25%);
+	top: calc(75% - 25%);
 	line-height: 40px;
 	width: 50px;
 	color: #fff;
@@ -97,11 +123,11 @@ h1{
 
  .flecha-izquierda2{
      
-     left: 120px;
+     left: 200px;
  }
 
  .flecha-derecha2{
-     right: 120px;
+     right: 170px;
  }
 
 
@@ -113,7 +139,7 @@ h1{
 	background: rgba(0,0,0,0.3);
 	font-size: 40px;
 	height: 15%;
-	top: calc(49% - 25%);
+	top: calc(70% - 25%);
 	line-height: 40px;
 	width: 50px;
 	color: #fff;
@@ -122,15 +148,62 @@ h1{
 	transition: .2s ease all;
 }
 
+.pie2{
+	width: 100%;
+    background-color: rgb(51, 50, 50);
+    margin-top: 100px;
+    height: 150px;
+}
 
+.ayuda{
+	
+    color: white
+
+}
+
+.pieza{
+	margin-top: 10px;
+	color: orange;
+}
+
+.explorar{
+	
+    color: white
+}
+.empezar{
+	
+    color: white
+}
+.compañia{
+	
+    color: white
+}
+.explorar.pieza{
+    margin-top: 14%;
+    
+}
+.empezar.pieza{
+    margin-top: 14%;
+}
+.ayuda.pieza{
+    margin-top: 14%;
+    
+}
+ .compañia.pieza{
+    margin-top: 14%;
+ }
+
+ .row{
+    margin-left: auto;
+ }
 
  .flecha-izquierda3{
      
-     left: 120px;
+     left: 200px;
  }
 
  .flecha-derecha3{
-     right: 120px;
+     right: 170px;
  }
 
 
