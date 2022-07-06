@@ -29,12 +29,12 @@
     <button role="button" id="flecha-izquierda2" class="flecha-izquierda2"><i class="fas fa-angle-left"></i></button>
   <button role="button" id="flecha-derecha2" class="flecha-derecha2"><i class="fas fa-angle-right"></i></button>
       <div class="your-class2">
-      <div><a href="#" style="background-image:url(<?php the_field ('accion_1');?>)"></a></div>
-      <div><a href="#" style="background-image:url(<?php the_field ('accion_2');?>)"></a></div>
-      <div><a href="#" style="background-image:url(<?php the_field ('accion_3');?>"></a></div>
-      <div><a href="#" style="background-image:url(<?php the_field ('accion_4');?>"></a></div>
-      <div><a href="#" style="background-image:url(<?php the_field ('accion_5');?>"></a></div>
-      <div><a href="#" style="background-image:url(<?php the_field ('accion_6');?>"></a></div>
+      <div><a href="<?php the_field ('enlace_1');?>" style="background-image:url(<?php the_field ('accion_1');?>)"></a></div>
+      <div><a href="<?php the_field ('enlace_2');?>" style="background-image:url(<?php the_field ('accion_2');?>)"></a></div>
+      <div><a href="<?php the_field ('enlace_3');?>" style="background-image:url(<?php the_field ('accion_3');?>"></a></div>
+      <div><a href="<?php the_field ('enlace_4');?>" style="background-image:url(<?php the_field ('accion_4');?>"></a></div>
+      <div><a href="<?php the_field ('enlace_5');?>" style="background-image:url(<?php the_field ('accion_5');?>"></a></div>
+      <div><a href="<?php the_field ('enlace_6');?>" style="background-image:url(<?php the_field ('accion_6');?>"></a></div>
 
         </a></div>
      </div>

@@ -4,11 +4,13 @@
     
 
         
-   <div class="banner2" style="background-image: url(https://cdn.mos.cms.futurecdn.net/oUNqiP3s3T9aYPqFUgZaWk.jpg);">
+   <div class="banner2" style="background-image: url(<?php the_post_thumbnail_url("large");?>);">
 
 <div class="row">
     <div class="col-sm-5 text-right">
-    <iframe class="video" width="280" height="450" src="https://www.youtube.com/embed/YlkN8K2oOMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video">
+        <?php the_field ('video');?>
+        </div>
      </div>
      
      <div class="col-sm-6">
@@ -29,12 +31,12 @@
 
 <div class="multiple-items2">
     
-    <div><a href="#"><img src="<?php bloginfo("template_url");?>img/3.webp" width="280" height="300" alt=""></a></div>
-    <div><a href="#"><img src="<?php bloginfo("template_url");?>img/17.webp" width="280" height="300" alt=""></a></div>
-    <div><a href="#"><img src="<?php bloginfo("template_url");?>img/16.webp" width="280" height="300" alt=""></a></div>
-    <div><a href="#"><img src="<?php bloginfo("template_url");?>img/12.jpg" width="280" height="300"  alt=""></a></div>
-    <div><a href="#"><img src="<?php bloginfo("template_url");?>img/10.webp" width="280" height="300" alt=""></a></div>
-    <div><a href="#"><img src="<?php bloginfo("template_url");?>img/7.jpg"  width="280" height="300" alt=""></a></div>
+    <div><a href="#"><img src="<?php the_field ('foto_1');?>" width="280" height="300" alt=""></a></div>
+    <div><a href="#"><img src="<?php the_field ('foto_2');?>" width="280" height="300" alt=""></a></div>
+    <div><a href="#"><img src="<?php the_field ('foto_3');?>" width="280" height="300" alt=""></a></div>
+    <div><a href="#"><img src="<?php the_field ('foto_4');?>" width="280" height="300"  alt=""></a></div>
+    <div><a href="#"><img src="<?php the_field ('foto_5');?>" width="280" height="300" alt=""></a></div>
+    <div><a href="#"><img src="<?php the_field ('foto_6');?>"  width="280" height="300" alt=""></a></div>
     
 </div>
   </div>
