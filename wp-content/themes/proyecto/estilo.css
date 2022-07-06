@@ -71,13 +71,12 @@ h1{
 
 .flecha-izquierda,
 .flecha-derecha{
-    
+    margin-top: 10%;
     position: absolute;
 	border: none;
 	background: rgba(0,0,0,0.3);
 	font-size: 40px;
 	height: 15%;
-	top: calc(85% - 25%);
 	line-height: 40px;
 	width: 50px;
 	color: #fff;
@@ -94,23 +93,22 @@ h1{
 
  .flecha-izquierda{
      
-     left: 200px;
+     left: 15%;
  }
 
  .flecha-derecha{
-     right: 170px;
+     right: 12.5%;
  }
      
 
  .flecha-izquierda2,
 .flecha-derecha2{
-    margin-top: 430px;
+    margin-top: 10%;
     position: absolute;
 	border: none;
 	background: rgba(0,0,0,0.3);
 	font-size: 40px;
 	height: 15%;
-	top: calc(75% - 25%);
 	line-height: 40px;
 	width: 50px;
 	color: #fff;
@@ -123,23 +121,22 @@ h1{
 
  .flecha-izquierda2{
      
-     left: 200px;
+     left: 15%;
  }
 
  .flecha-derecha2{
-     right: 170px;
+     right: 12.5%;
  }
 
 
  .flecha-izquierda3,
 .flecha-derecha3{
-    margin-top: 860px;
+    margin-top: 10%;
     position: absolute;
 	border: none;
 	background: rgba(0,0,0,0.3);
 	font-size: 40px;
 	height: 15%;
-	top: calc(70% - 25%);
 	line-height: 40px;
 	width: 50px;
 	color: #fff;
@@ -200,11 +197,11 @@ h1{
 
  .flecha-izquierda3{
      
-     left: 200px;
+     left: 15%;
  }
 
  .flecha-derecha3{
-     right: 170px;
+     right: 12.5%;
  }
 
 
