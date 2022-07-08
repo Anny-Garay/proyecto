@@ -230,11 +230,16 @@ p{
 
 }
 
+.video{
+    margin-top: 20%;
+   
+    
+}
     
 .pie2{
 	width: 100%;
     background-color: rgb(51, 50, 50);
-    margin-top: 100px;
+    margin-top: 5%;
     height: 150px;
 }
 
