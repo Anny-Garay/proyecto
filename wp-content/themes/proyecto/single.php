@@ -1,3 +1,4 @@
+
 <?php get_header(); ?>
 
    <section class="fondo">
@@ -43,3 +44,32 @@
    </section>
 
 <?php get_footer(); ?>
+
+
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script  src="https://code.jquery.com/jquery-2.2.4.min.js"integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+   <script>
+    $('.multiple-items2').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 1000,
+    arrows: false,
+    responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
+    });
+   
+
+
+   
+</script>
