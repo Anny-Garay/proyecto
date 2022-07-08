@@ -159,11 +159,8 @@ h1{
     height: 450px;
 }
 
-
-
-.video{
 	
-}
+
 
 .text-right{
     text-align: right;
@@ -233,6 +230,7 @@ p{
 
 }
 
+    
 .pie2{
 	width: 100%;
     background-color: rgb(51, 50, 50);
@@ -293,104 +291,6 @@ p{
  }
 
 
-
- .peli{
-    color: blanchedalmond;
-    margin-left: -70px ;
-    text-decoration: none;
-}
-.multiple-items{
-    margin-left: 150px;
-}
-.lazy{
-    margin-left: 150px;
-	
-    
-}
-
-    
-
-
-.banner2{
-	display: block;
-    background-size: cover;
-    width: 100%;
-    font-size: 100px;
-    height: 450px;
-}
-
-
-
-.video{
-    margin-top: 220px;
-}
-
-.text-right{
-    text-align: right;
-    
-}
-
-h1.fondos{
-        margin-top: 460px;
-        color: white;
-        text-shadow: 1px 1px 2px rgb(255, 255, 255);
-        font-size: 30px;
-
-}
-
-h2.fondos2{
-    margin-left: 80px;
-     color: white;
-     text-shadow: 1px 1px 2px rgb(235, 232, 232);
-     font-size: 30px;
-}
-
-.p1{
-    color: white;
-        text-shadow: 1px 1px 2px rgb(255, 255, 255);
-        font-size: 30px;
-
-}
-p{
-    font-size: 22px;
-    margin-top: -13px;
-    margin-left: 0px;
-    color: rgba(255, 255, 255, 0.801);
-   
-}
-
-.contenido{
-    font-size: 17px;
-    margin-left: auto;
-}
-
-.boton{
-
-    margin-top: 20px;
-    margin-bottom: 50px;
-    font-size: 22px;
-    background: red;
-    color: white;
-    text-decoration: none;
-    border: 2px solid white;
-    border-radius: 12px;
-    display: inline-block;
-    font-size: 26px;
-    padding: 10px 50px;
-}
-
-.boton:hover {background-color: #3e8e41}
-
-.boton:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.multiple-items2{
-    padding: 30px 0px;
-    margin-left: 80px;
-}
  @media (max-width: 600px) {
 	 #flecha-izquierda1 {
 		 display: none !important;
