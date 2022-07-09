@@ -26,7 +26,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container2">
 
 <h2 class="fondos2">Peliculas Recomendadas</h2>
 

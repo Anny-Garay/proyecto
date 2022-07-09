@@ -172,7 +172,7 @@ h1{
 }
 
 h1.fondos{
-        margin-right: 360px;
+        text-align: left;
         margin-top: 460px;
         color: white;
         text-shadow: 1px 1px 2px rgb(255, 255, 255);
@@ -206,8 +206,9 @@ p{
     margin-left: auto;
 }
 
-.container{
-    margin-top: 350px;
+.container2{
+    margin-top: 30%;
+
 }
 
 .boton{
@@ -245,7 +246,7 @@ p{
 .video iframe{
     width: 280px;
     height: 450px;
-    margin-top: 160px;
+    margin-top: 220px;
     margin-left: 90px;
 }
     
