@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?php bloginfo ("template_url");?>/estilo.css">
     <title>DISTRACTION</title>
 </head>
-<body class="color">
+<body <?php body_class("color"); ?>>
   <header>
     <nav class="navbar navbar-expand-lg bg-light navbar navbar-dark bg-dark">
       <div class="container-fluid">

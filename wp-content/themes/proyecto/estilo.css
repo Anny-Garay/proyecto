@@ -2,8 +2,9 @@ body{
 	background-color: rgb(255, 255, 255);
 }
 
-body.color{
-	background-color: rgb(255, 255, 255);
+
+.single{
+    background-color: black;
 }
 
  p.logo{
@@ -155,10 +156,13 @@ h1{
 	display: block;
     background-size: cover;
     width: 100%;
-    font-size: 100px;
-    height: 450px;
+    
 }
 
+.banner3{
+    background-size: cover;
+    height: 450px;
+}
 	
 
 
@@ -168,6 +172,7 @@ h1{
 }
 
 h1.fondos{
+        margin-right: 360px;
         margin-top: 460px;
         color: white;
         text-shadow: 1px 1px 2px rgb(255, 255, 255);
@@ -201,6 +206,10 @@ p{
     margin-left: auto;
 }
 
+.container{
+    margin-top: 350px;
+}
+
 .boton{
 
     margin-top: 20px;
@@ -231,9 +240,13 @@ p{
 }
 
 .video{
-    margin-top: 20%;
    
-    
+}
+.video iframe{
+    width: 280px;
+    height: 450px;
+    margin-top: 160px;
+    margin-left: 90px;
 }
     
 .pie2{

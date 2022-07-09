@@ -5,9 +5,9 @@
     
 
         
-   <div class="banner2" style="background-image: url(<?php the_post_thumbnail_url("large");?>);">
+   <div class="banner2">
 
-<div class="row">
+<div class="row banner3" style="background-image: url(<?php the_post_thumbnail_url("large");?>);">
     <div class="col-sm-5 text-right">
         <div class="video">
         <?php the_field ('video');?>
@@ -43,7 +43,6 @@
   </div>
    </section>
 
-<?php get_footer(); ?>
 
 
 <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
@@ -73,3 +72,4 @@
 
    
 </script>
+<?php get_footer(); ?>
