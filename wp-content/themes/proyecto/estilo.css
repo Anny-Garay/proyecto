@@ -65,6 +65,15 @@ h1{
     font-size: 30px;
 }
 
+
+h3.titulos{
+    
+        margin-top: 80px;
+        text-shadow: 2px 2px 3px black;
+        font-size: 40px;
+    
+}
+
  h3{
     text-align: center;
      color: black;
@@ -232,6 +241,16 @@ p{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+
+.multiple-items{
+    margin-left: 150px;
+}
+.lazy{
+    margin-left: 150px;
+	
+    
 }
 
 .multiple-items2{

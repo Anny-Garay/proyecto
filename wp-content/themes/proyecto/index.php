@@ -8,8 +8,9 @@
         <div><img src="https://tumbaabierta.com/wp-content/uploads/2012/02/ira_de_titanes_wrath_titans_1920x1200_wallpaper_1.jpg"  width="100%"  height="450"></div>
       </div>
     
-      <h3>Peliculas Exitosas</h3>
-        
+      <div>
+      <h3 class="titulos">Peliculas Exitosas</h3>
+    </div>
             <div class="multiple-items">
               <div><img src="https://s3.cine3.com/2020/06/titans2.jpg" width="280" height="350" alt=""></div>
               <div><img src="https://http2.mlstatic.com/D_NQ_NP_760751-MLM41788706380_052020-W.jpg" width="280" height="350" alt=""></div>
@@ -19,11 +20,12 @@
               <div><img src="https://i.postimg.cc/g04V5wfH/as.jpg" width="280" height="350" alt=""></div>
            </div>
         
-      
+    
       
          
-      
-      <h3>Proximamente</h3>
+      <div>
+      <h3 class="titulos">Proximamente</h3>
+      </div>
       <div class="lazy">
       
         <div><img src="https://bonitanetworkmedia.s3.amazonaws.com/2022/05/r7UQvJcB-Avatar-El-Camino-del-Agua.jpg" width="280" height="350" alt=""></div>
@@ -35,6 +37,77 @@
       
       </div>
 </section>
-           
+          
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script  src="https://code.jquery.com/jquery-2.2.4.min.js"integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>    
+    
+      $('.banner').slick({
+        infinite: true,
+        arrows: false,
+        fade: true,
+        slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      speed: 1000,
+      responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
+
+    });
+  </script>
+  
+    <script>
+    
+      $('.multiple-items').slick({
+        infinite: true,
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplaySpeed: 800,
+        speed: 1000,
+        responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
+        
+    });
+    
+      $('.lazy').slick({
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplaySpeed: 800,
+        speed: 1000,
+        responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
+      
+    });
+    </script>
+
 <?php get_footer();?>
+
+
+
+
     
